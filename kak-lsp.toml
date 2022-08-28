@@ -1,0 +1,12 @@
+verbosity = 2
+snippet_support = true
+
+[server]
+timeout = 1800
+
+[language.rust]
+filetypes = ['rust']
+roots = ['Cargo.toml', '.git']
+
+command = 'rls'
+settings_section = 'rust'
